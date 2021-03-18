@@ -1,4 +1,4 @@
-import React, { useState, useEffect } from 'react';
+import React, { useEffect } from 'react';
 import './Language.scss';
 import { useTranslation } from 'react-i18next';
 

@@ -19,7 +19,6 @@ export const CountryPage = () => {
   useEffect(() => {
     const getData = async () => {
       const data = await request(`/countries/${id}?lang=${language}`);
-      console.log('load: ' + loading);
       setCountry(data);
     };
 
