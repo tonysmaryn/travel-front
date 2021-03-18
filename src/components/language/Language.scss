@@ -1,0 +1,22 @@
+.language {
+    &__label {
+        display: block;
+        margin: 0;
+    }
+
+    .language__select {
+        justify-self: flex-end;
+        background: transparent;
+        outline: none;
+
+        option:checked {
+            background: olive linear-gradient(olive, olive);
+            color: blue;
+        }
+
+        * {
+            border-radius: 15px;
+            background-color: red;
+        }
+    }
+}
